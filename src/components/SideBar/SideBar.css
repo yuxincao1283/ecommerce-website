@@ -1,0 +1,36 @@
+.SideBar {
+
+    width: 300px;
+    background-color: #131921;
+    position: sticky;
+    color: white;
+    align-items:baseline;
+    height: 91.8vh;
+    overflow-y: auto;
+    direction: ltr;
+}
+
+.TypeEntry {
+    display:flex;
+    align-items:start;
+    justify-content: space-between;
+    flex-direction: Column;
+    margin: 20px 18px 18px 38px;
+}
+
+.EntryLabel {
+    color: gray;
+    /* margin-left: -100px; */
+    margin-right: auto;
+}
+
+.EntryElement {
+    font-family: Lato;
+    font-size: 18px;
+    margin: 6px 0 6px 0;
+}
+
+.LineBreak {
+    color: white;
+    width: 100%;
+}

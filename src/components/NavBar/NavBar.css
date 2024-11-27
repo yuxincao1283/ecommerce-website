@@ -8,10 +8,17 @@
     z-index: 100;
 }
 
+.SideBar_button {
+    color: white;
+    margin: 0 24px 0 40px;
+    width: 25px;
+    height: 25px;
+}
+
 .header_logo {
     width: 100px;
     object-fit: contain;
-    margin: 0 20px;
+    margin: 0 130px 0 0;
     margin-top: 18px;
 }
 

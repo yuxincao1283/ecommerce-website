@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-import { Navbar, Home, Feed, VideoDetail, ChannelDetail, SearchFeed } from './components';
+import { Navbar, Home, Feed, VideoDetail, ChannelDetail, SearchFeed, SideBar } from './components';
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
   return (
     <div className='app'>
       <Navbar />
-      <Home />
+      <SideBar />
+      {/* <Home /> */}
     </div>
     // <>
     //   <BrowserRouter>

@@ -5,10 +5,12 @@ import SearchIcon from "@mui/icons-material/Search";
 // import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
 import { ShoppingBasket } from "@mui/icons-material";
+import { BsLayoutTextSidebar as SideBarButtonIcon } from "react-icons/bs";
 
 const Navbar = () => {
   return (
     <div className="header">
+      <SideBarButtonIcon className="SideBar_button" />
       <img
         className="header_logo"
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
