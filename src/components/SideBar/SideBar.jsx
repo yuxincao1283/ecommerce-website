@@ -4,9 +4,9 @@ import "./SideBar.css"
 
 
 
-const SideBar = () => {
+const SideBar = ({isSideBarActive}) => {
   return (
-    <div className='SideBar'>
+    <div className={`SideBar ${isSideBarActive ? "SideBarHide" : "SideBarShow"}`}>
         <div className='TypeEntry'>
             
             <label className='EntryLabel'> For you </label>
@@ -39,8 +39,6 @@ const SideBar = () => {
             <a className='EntryElement'> type2 </a>
             <hr className='LineBreak'/>
         </div>
-        
-
 
     </div>
   )

@@ -4,13 +4,22 @@ import './App.css'
 import { Navbar, Home, Feed, VideoDetail, ChannelDetail, SearchFeed, SideBar } from './components';
 
 
+
+
 function App() {
   const [count, setCount] = useState(0);
 
+  const [isSideBarActive, setSideBarActive] = useState(false);  
+
+  const toggleSideBar = () =>
+  {
+    setSideBarActive(!isSideBarActive);
+  }
+
   return (
     <div className='app'>
-      <Navbar />
-      <SideBar />
+      <Navbar transitionSidebar={toggleSideBar} />
+      <SideBar isSideBarActive={isSideBarActive} />
       {/* <Home /> */}
     </div>
     // <>

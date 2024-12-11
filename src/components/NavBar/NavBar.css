@@ -8,9 +8,18 @@
     z-index: 100;
 }
 
+.SideBarDiv {
+    width: 25px;
+    height: 25px;
+    margin: 0 24px 0 40px;
+}
+
+.SideBarDiv :hover{
+    cursor: pointer;
+}
+
 .SideBar_button {
     color: white;
-    margin: 0 24px 0 40px;
     width: 25px;
     height: 25px;
 }

@@ -7,10 +7,14 @@ import { Link } from "react-router-dom";
 import { ShoppingBasket } from "@mui/icons-material";
 import { BsLayoutTextSidebar as SideBarButtonIcon } from "react-icons/bs";
 
-const Navbar = () => {
+const Navbar = ({ transitionSidebar }) => {
   return (
     <div className="header">
-      <SideBarButtonIcon className="SideBar_button" />
+      
+      <div className="SideBarDiv">
+        <SideBarButtonIcon className="SideBar_button" onClick={transitionSidebar}/>
+      </div>
+
       <img
         className="header_logo"
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
@@ -43,3 +47,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

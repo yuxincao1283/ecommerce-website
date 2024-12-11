@@ -34,3 +34,14 @@
     color: white;
     width: 100%;
 }
+
+.SideBarShow {
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(0);
+}
+
+.SideBarHide {
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(-300px);
+}
+
